@@ -1,0 +1,366 @@
+// Javascript Evenst.
+// Mouse Events.
+// Click, Double Click, Right Click. Mouse Hover,Mouse out, Mouse up. Mouse Down
+
+// Keyboard Events.
+// Key Press, Key Up,
+
+// Window Events.
+//Load, Unload, Resize and Scroll.
+
+// Events are used to call functions in javascript.
+
+// onclick
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("Hello have a nice day!!")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="sayHi()">Click me</button>
+  </body>
+</html>
+
+//ondbclick
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("Hello have a nice day!!")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button ondblclick="sayHi()">Click me</button>
+  </body>
+</html>
+
+//oncontextmenu : rightclick
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            confirm("Do you want to see the seetings")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button oncontextmenu = "sayHi()">Click me</button>
+  </body>
+</html>
+
+// onmouseout
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            confirm("Do you really wants to leave the window")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onmouseout = "sayHi()">Click me</button>
+  </body>
+</html>
+
+//onmouseenter
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("OHHH you are hovering me..!")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onmouseenter = "sayHi()">Click me</button>
+  </body>
+</html>
+
+// onmousedown
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("OHHH you are clicking me..!")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onmousedown = "sayHi()">Click me</button>
+  </body>
+</html>
+
+//onmouseup
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("OHHH you are clicking me..!")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button onmouseup = "sayHi()">Click me</button>
+  </body>
+</html>
+
+// The kay events or keyboards events can only works inside a body tag or inside a form tag.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("OHHH you are using yourkeyboard :(")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body  onkeydown = "sayHi()">
+    <button>Click me</button>
+  </body>
+</html>
+
+// onkeyup
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lect-05</title>
+    <script>
+          function sayHi(){
+            alert("OHHH you are using yourkeyboard :(")
+          }
+    </script>
+
+    <style>
+      body{
+        background-color: aliceblue;
+      }
+      button{
+        display: block;
+        width: 150px;
+        height: 50px;
+        margin:100px auto 0px auto;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        color: orangered;
+        background-color: white;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body  onkeyup = "sayHi()">
+    <button>Click me</button>
+  </body>
+</html>
+
+
+
+
