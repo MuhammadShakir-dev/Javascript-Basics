@@ -8,5 +8,3 @@ let f_ary = ary.slice(1,4);
 console.log(f_ary);
 
 //  if you don't want to add new values in the starting or at the ending of your array then use splice.
-
-
