@@ -20,3 +20,14 @@ console.log(fGdsc);
 
 let search = fGdsc.indexOf("Anum",0);
 console.log(search);
+
+// lastIndexOf wroks same as the indexOf but from the last of your array.
+
+let xGdsc = ["Danella","Osama","Mahnoor","Usman","Shakir","Wajid"];
+let nGdsc = ["Wajid","Shakir","Haris"];
+
+let fGdsc = xGdsc.concat(nGdsc);
+console.log(fGdsc);
+
+let search = fGdsc.lastIndexOf("Shakir", 6);
+console.log(search);
