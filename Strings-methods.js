@@ -61,3 +61,15 @@ console.log(x);
     
     x = str.lastIndexOf("is");
     console.log(x);
+
+// lets understand replace. Is used to replace a word with a new word.
+
+let str = "Html, CSS, TailwindCSS, Javascript, NodeJs";
+let x = str.replace("CSS","CSS-3");
+console.log(x);
+
+// here i'm replace are with is using local parameters. 
+let skills  = "My skills are in front-end development";
+let a = skills.replace(/are/g , "is");
+console.log(a);
+
