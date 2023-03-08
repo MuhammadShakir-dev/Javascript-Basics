@@ -73,3 +73,9 @@ let skills  = "My skills are in front-end development";
 let a = skills.replace(/are/g , "is");
 console.log(a);
 
+// trim is used to remove all the extra spaces from the left and right side of your string.
+let str = "       javascript      ";
+let b = str.trim();
+alert(b);
+
+
