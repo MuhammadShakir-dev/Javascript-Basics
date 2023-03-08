@@ -35,3 +35,11 @@ console.log(x);
 
 x = str.endsWith("Haris");
 console.log(x);
+
+// search works same as includes but it haa a little bit diference because.
+// includes print just boolean ture and false but search prints the index number
+// of the word you are looking for.
+
+let str = "Muhammad Shakir";
+let x = str.search("Shakir");
+console.log(x);
