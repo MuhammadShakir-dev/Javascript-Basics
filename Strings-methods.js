@@ -43,3 +43,21 @@ console.log(x);
 let str = "Muhammad Shakir";
 let x = str.search("Shakir");
 console.log(x);
+
+
+// match works same as includes and search but it will create an array of the words you are  searching for.
+let str = "Hello World this is me Muhammad Shakir dev. Im an Opensource Contributor and a Front-end Develoepr and a content creator";
+let x = str.match("and");
+console.log(x);
+
+// indexOf and lastIndexOf work same as arrays methods .
+// indexOf start from the begineening of your string and show the index number of
+// the word you are searching for. And last indexOf start with the end of you arrray.
+
+
+    let str = "Hello This is Muhammad Shakir. He is a Developer";
+    let x = str.indexOf("is");
+    console.log(x);
+    
+    x = str.lastIndexOf("is");
+    console.log(x);
