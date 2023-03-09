@@ -2,11 +2,23 @@
 > This repository will help you to learn all the basic of javsscript in a proper manner step by step. 
 
 ## Reuired Things.
-1. Any Code Editor (VS Code, Atom or Sublime).
-2. Web Browser.
-3. Github Desktop.
+> <a href= "https://code.visualstudio.com/">VS Code</a> 
 
-## Outline 
+## What is Javascript?
+> JavaScript is a high-level, interpreted programming language that is widely used for front-end web development. It was created by Brendan Eich in 1995 while he was working at Netscape Communications Corporation. Initially, JavaScript was called LiveScript, but it was later renamed to JavaScript for marketing purposes. Since then, JavaScript has evolved significantly and is now used for a wide range of purposes, including server-side programming, desktop application development, and mobile app development.
+
+## Why is JavaScript So Popular?
+> There are several reasons why JavaScript has become the most popular programming language, including:
+
+> It's Easy to Learn: JavaScript is a beginner-friendly language that's easy to learn and understand. Unlike other programming languages, JavaScript doesn't require a lot of setup or configuration. All you need is a text editor and a web browser, and you can start coding.
+
+> It's Versatile: JavaScript is a versatile language that can be used for a wide range of purposes, from front-end web development to server-side programming. This versatility has made JavaScript the go-to language for developers who want to build complex web applications.
+
+> It Has a Large Community: JavaScript has one of the largest developer communities in the world. There are countless online resources, tutorials, and forums where developers can learn and share their knowledge. This vast community has helped to make JavaScript more accessible and easier to use.
+
+> It's Constantly Evolving: JavaScript is a constantly evolving language that's always adapting to meet the needs of developers. New frameworks and libraries are being created all the time, making it easier to build complex applications quickly.
+
+## Outline of this course.
 1. JS Introduction	
 2. JS Implementation	
 3. HTML Tags in Javascript	
