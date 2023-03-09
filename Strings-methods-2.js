@@ -45,3 +45,12 @@
        let x = str.substring(0,9);
        console.log(x);
 
+// toString covert any data type variable into string
+
+    let number = 12;
+    document.write(number + "<br><br>");
+    document.write(typeof(number) + "<br><br>");
+    let num = number.toString();
+    
+    document.write(num + "<br><br>");
+    document.write(typeof(num));
