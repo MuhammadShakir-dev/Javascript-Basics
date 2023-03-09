@@ -27,3 +27,21 @@
        let finalStr = str.split(" ");  // split() function     
        console.log(finalStr);  // Output
        console.log(typeof(finalStr)); // Output "Object"
+// slice string function works same as array slice function. it will give the output from the string according to your given paramerters.
+
+       let str = "hello world javascript is super amazing";
+       let finalStr = str.slice(11);
+       console.log(str);
+       console.log(finalStr);
+
+// sub str work same as slice but there is a little bit difference in that.
+       let str = "hello world.....!!!";
+       let finalstr = str.substr(0,5);
+       console.log(finalstr);
+
+// sub string work same as slice but i will give you output which is present between two parameters
+
+       let str = "hello world";
+       let x = str.substring(0,9);
+       console.log(x);
+
