@@ -20,4 +20,19 @@ let userGet = prompt("Enter a decimal no i will add 5 in that : ");
 let num = parseFloat(userGet);
 console.log(num + 5);
 
+// Note that all the functions that are starting from is only return boolean values that is true and false. Because they are mostly used to check the conditions.
+// you have to use isFinite and isInteger with Number. i.e = Number.isFinite and Number.isInteger
+// isFinite()  is used to check that weather your number is finite or infinite.
+let userGet = prompt("Enter a no i will tell you it's finite or not : ");
+let num = isFinite(userGet);
+console.log(num);
+
+// inInteger() is used to check that weather your number is an integer or not.
+let userGet = prompt("Enter a no i will tell is it an integer or not : ");
+let num = Number.isInteger(userGet);
+console.log(num);
+
+
+
+
 
