@@ -35,3 +35,14 @@
   let userInput = prompt("Enter a decimal value i will convert it into integre : ");
   let x = Math.trunc(userInput);
   console.log(x);
+
+  // max() is used to find the maximun number from your given inputs.
+  // min() us used to find the minimum number from your given inputs.
+
+  let userInput = [1,2,33,39,10,100];
+  let x = Math.max(...userInput);
+  console.log(x);
+
+  let userInput = [1,2,33,39,10,100];
+  let x = Math.min(...userInput);
+  console.log(x);
