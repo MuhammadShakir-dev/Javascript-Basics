@@ -1,6 +1,13 @@
-  // there are seven methods that are used in number methods.
-  // number methods in js
-  // Write a javascript program in which take a number in the form of a string and add +10 in that string number and show the result.
+  // there are seven number methods used in javascript and all these are mentioned below.
+
+  // Number = used to convert strings into number.
+  // parseInt = used to convert decimal and strings into number.
+  // parseFloat = used to print decimal values.
+  // isInteger = used to check that either your number is of integer type or not.
+  // isFinite = used to check that either your number is finite or not.
+  // toFixed = used to print the values after points according to your given parameter.
+  // toPrecision = used to roundoff the values after the points according to your given parameter. 
+
 
   // Step no 1 : Get input from user.
   let getUser = prompt("Enter a number i will add plus 10 in that : "); 
