@@ -55,13 +55,15 @@
       let y = Math.cbrt(x);
       console.log("The cubic root of this no is  : " + y);
 
-  }else if(userInput === 2){
+  }
+  else if(userInput === 2){
       let a = parseInt(prompt("Enter a number : "));
       let b = Math.sqrt(a);
       console.log("The square root of this no is  : " + b);
-  }else{
+  }
+  else{
       console.log("please select right operation");
-    
+  }
     
     // pow() is used to find the power of any value, there are two parameters in it one is the base and the other is how many time your want to multiply the number itself
     let usrInput = Math.pow(4,3);
