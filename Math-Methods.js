@@ -15,7 +15,7 @@
   // it is mostly used in complex accounting applications, used for making video games and also used for animation.
   // You should use Math before using any of the following maths mthods.
 
-  // Ceil is used for roundoff your video for positive value input the output is there uper value.
+  // Ceil is used for roundoff your value for positive value input the output is there uper value.
   // for input negative value the output is its downside value.
   let userInput = prompt("Enter a value i will rounudoff it : ");
   let x = Math.ceil(userInput);
@@ -39,10 +39,30 @@
   // max() is used to find the maximun number from your given inputs.
   // min() us used to find the minimum number from your given inputs.
 
-  let userInput = [1,2,33,39,10,100];
-  let x = Math.max(...userInput);
-  console.log(x);
+  let x = Math.min(2,4,5,6,7);
+  console.log("The minimum value is  : " + x);
 
-  let userInput = [1,2,33,39,10,100];
-  let x = Math.min(...userInput);
-  console.log(x);
+  let y = Math.max(10,20,30,40);
+  console.log("The maximum value is  : " + y);
+
+
+// sqrt() use to find the square root of any number
+// cbrt()  use to find the cube root of any number
+
+  let userInput = parseInt(prompt("For cbrt enter 1 and for sqrt enter 2 : "));
+  if(userInput === 1){
+      let x = parseInt(prompt("Enter a number : "));
+      let y = Math.cbrt(x);
+      console.log("The cubic root of this no is  : " + y);
+
+  }else if(userInput === 2){
+      let a = parseInt(prompt("Enter a number : "));
+      let b = Math.sqrt(a);
+      console.log("The square root of this no is  : " + b);
+  }else{
+      console.log("please select right operation");
+    
+    
+    // pow() is used to find the power of any value, there are two parameters in it one is the base and the other is how many time your want to multiply the number itself
+    let usrInput = Math.pow(4,3);
+    console.log("The ans is  : " + usrInput);
