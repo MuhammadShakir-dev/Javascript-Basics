@@ -68,3 +68,32 @@
     // pow() is used to find the power of any value, there are two parameters in it one is the base and the other is how many time your want to multiply the number itself
     let usrInput = Math.pow(4,3);
     console.log("The ans is  : " + usrInput);
+
+    // Random number guessing game in javascript using Math.random() function.
+    // Random Number guessing game in javascript.
+    let score = 0;
+
+    function randomNumber() {
+      return Math.floor(Math.random() * 10) + 1;
+    }
+
+    function startGame() {
+      const guessNumber = randomNumber();
+      const usrInput = parseInt(prompt("Guess a number between 1 to 10  : "));
+
+      if (usrInput === guessNumber) {
+        score += 5;
+        alert(`Congratulations you guess the right number your score is ${score}`);
+        const playAgain = confirm("Do you want to play again ? ");
+        if (playAgain) {
+          return startGame();
+        } else {
+          alert(`Thanks for playing your score is ${score}`);
+        }
+      } else {
+        alert(`Sorry you guess the wrong number the number was ${guessNumber}`)
+        startGame()
+      }
+    }
+
+    startGame();
