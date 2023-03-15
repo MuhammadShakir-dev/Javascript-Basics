@@ -97,3 +97,13 @@
     }
 
     startGame();
+
+  // we have covered all maths functions and methods now the last one is our property which is called PI it is used to print the value of Pi.
+  let pi = Math.PI;
+  console.log("The value of PI is  : " + pi);
+
+
+
+
+
+
