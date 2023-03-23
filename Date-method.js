@@ -34,3 +34,13 @@
   // wed 3
   // thursday 4
   console.log(dateDemo.getDay());
+
+
+  // get hours
+  console.log(dateDemo.getHours());
+
+  // get minutes
+  console.log(dateDemo.getMinutes());
+
+  // get milli second
+  console.log(dateDemo.getMilliseconds());
