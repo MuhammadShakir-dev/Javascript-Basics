@@ -44,3 +44,9 @@
 
   // get milli second
   console.log(dateDemo.getMilliseconds());
+
+
+  // how to print full date.
+  let dateDemo = new Date();
+  console.log(dateDemo.getDate() + "/" + dateDemo.getMonth() + "/" + dateDemo.getFullYear());
+
